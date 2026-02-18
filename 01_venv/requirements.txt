@@ -1,0 +1,17 @@
+
+#python -m venv venv  --> initialize virtual env folder
+
+#venv\Source\Activate or .\venv\Source\Activate.ps1--> to activate the virtual env
+
+# Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned  // This command allows your user account to run local PowerShell scripts while still blocking unsigned scripts downloaded from the internet, improving usability for development without reducing system-wide security.
+
+# to undo the above step use this command: Set-ExecutionPolicy -Scope CurrentUser Restricted
+
+# deactivate --> to exit from venv
+
+
+# pip install -r requirements.txt
+
+# library_name === specific version
+requests==2.22
+flask==3.0.0
