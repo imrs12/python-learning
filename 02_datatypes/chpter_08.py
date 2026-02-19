@@ -31,3 +31,18 @@ print(f"sorted chai: {chai_ingredients}")
 water_level = [1,2,3,4,5,6,7,8,9]
 print(f"minimum: {min(water_level)}")
 print(f'maximum: {max(water_level)}')
+
+#Operators overloading
+
+liquid_part = ["milk", "water"]
+flavour_part = ["ginger", "cardamom"]
+
+liquid_mix = liquid_part + flavour_part
+print(f"liquid mix {liquid_mix}")
+
+strong_brew = ["milk", "water"]* 3
+print(f"strong brew {strong_brew}")
+
+raw_spice_data = bytearray(b"CINNAMON")
+raw_spice_data= raw_spice_data.replace(b"CINNA", b"CARD")
+print(f"byteArray: {raw_spice_data}")
